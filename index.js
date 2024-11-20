@@ -53,7 +53,7 @@ app.post('/insert', jsonParser, function (req, res) {
           return;
 
         } else {
-          console.log("Insercion fue correcta");
+          console.log("Insert was successful!");
         }
     });
 
