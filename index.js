@@ -16,7 +16,7 @@ let db = new sqlite3.Database('./base.sqlite3', (err) => {
     if (err) {
         console.error(err.message);
     }
-    console.log('***BIENVENIDO***Conectado a la base de datos SQLite.');
+    console.log('***BIENVENID@***Conectado a la base de datos SQLite.');
 
     db.run(`CREATE TABLE IF NOT EXISTS todos (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
